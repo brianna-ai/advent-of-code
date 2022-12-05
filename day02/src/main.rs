@@ -98,8 +98,8 @@ fn main() {
             if let Ok(ip) = line {
                 // String to Vec<char>
                 let chars: Vec<char> = ip.chars().collect::<Vec<_>>();
-                // total_score = total_score + points_scored_fixed(chars[0], chars[2]);
-                total_score = total_score + points_scored_dyn(chars[0], chars[2]);
+                // total_score = total_score + points_scored_fixed(chars[0], chars[2]); // 8392
+                total_score = total_score + points_scored_dyn(chars[0], chars[2]); // 10116
             }
         }
     }
